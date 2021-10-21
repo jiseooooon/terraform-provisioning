@@ -1,6 +1,6 @@
 region = "ap-southeast-2"
 resource_prefix = "DevOS-Demo"
 #vpc_cidr = "10.0.0.0/16"
-#subnet_cidr = "10.0.0.0/20"
+subnet_id = "subnet-008a92fe71c69f8fd"
 instance_type = "t2.micro"
-bastion_key_pair_name = "devos-demo-sydney-target-instance-key"
+key_pair_name = "devos-demo-sydney-target-instance-key"
