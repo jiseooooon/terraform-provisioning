@@ -9,6 +9,6 @@ resource "aws_instance" "ec2" {
     "sg-04f73700bffb53a7f"
   ]
   tags = {
-  Name = "JISEON-TERRAFORM-INSTANCE"
+  Name = "${var.resource_prefix}-EC2"
   }
 }
