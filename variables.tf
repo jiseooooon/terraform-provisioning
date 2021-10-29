@@ -14,7 +14,7 @@ variable "subnet_id" {
 }
 
 variable "instance_type" {
-  default = "none"
+  default = "t2.micro"
   description = "EC2 Instance Type"
 }
 
