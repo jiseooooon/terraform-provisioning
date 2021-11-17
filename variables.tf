@@ -9,7 +9,7 @@ variable "resource_prefix" {
 }
 
 variable "subnet_id" {
-  default = subnet-008a92fe71c69f8fd
+  default = "subnet-008a92fe71c69f8fd"
   description = "subnet id"
 }
 
