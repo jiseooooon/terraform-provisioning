@@ -1,5 +1,5 @@
 region = "ap-southeast-2"
-resource_prefix = "JISEON_TERRAOFORM_DEMO"
+resource_prefix = "JISEON_TERRAFORM_DEMO"
 #vpc_cidr = "10.0.0.0/16"
 subnet_id = "subnet-008a92fe71c69f8fd"
 instance_type = "t2.micro"
