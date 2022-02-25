@@ -22,3 +22,9 @@ variable "key_pair_name" {
   default = "devos-demo-sydney-target-instance-key"
   description = "EC2 Instance Key Pair Name"
 }
+
+variable "ami" {
+  default = "ami-0aab712d6363da7f9"
+  description = "EC2 Instance AMI"
+}
+
