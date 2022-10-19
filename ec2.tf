@@ -1,6 +1,6 @@
 resource "aws_instance" "ec2" {
   ami = var.ami # region sydney
-  instance_type = 
+  instance_type = var.instance_type
   key_name = var.key_pair_name
   associate_public_ip_address = false
   subnet_id = var.subnet_id
